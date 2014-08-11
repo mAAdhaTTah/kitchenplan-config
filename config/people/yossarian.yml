@@ -10,7 +10,6 @@ recipes:
         - applications::rsync
 attributes:
     gems:
-        - otask
         - jekyll
     dotfiles:
         bash_it:
