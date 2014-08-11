@@ -1,13 +1,46 @@
 groups:
-    - groupa
+    - developer
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+        - dotfiles::repo
+        - applications::rsync
 attributes:
+    gems:
+        - otask
+        - jekyll
+    dotfiles:
+        bash_it:
+            enabled_plugins:
+                aliases:
+                completion:
+                plugins:
+            theme:
+            dir: ~/.bash_it
+            repository: https://github.com/revans/bash-it.git
     osxdefaults:
-        computername: MyComputerName
+        computername: Roma
     homebrewalt:
         apps:
-            - git-extras
+            - trash
+            - hr
+            - mackup
         cask_apps:
-            - sourcetree
+            - dropbox
+            - google-drive
+            - insync
+            - clamxav
+            - cleanmymac
+            - deeper
+            - geekbench
+            - omnidisksweeper
+            - onyx
+            - skype
+            - kext-utility
+            - kext-wizard
+            - pokertracker
+            - backuploupe
+            - duplicate-annihilator
+            - moneywell
+            - slice
+            - superduper

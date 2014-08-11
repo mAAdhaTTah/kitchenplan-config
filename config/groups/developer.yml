@@ -1,0 +1,38 @@
+recipes:
+    mac_os_x:
+        - nodejs::default
+        - applications::php55
+        - applications::mysql
+
+attributes:
+    mysql_root_password: "password"
+    homebrewalt:
+        apps:
+            - python
+            - ruby
+            - git
+            - composer
+            - android-platform-tools
+            - phpdoc
+            - phpunit
+        cask_apps:
+            - coda
+            - codekit
+            - sublime
+            - virtualbox
+            - transmit
+            - tower
+            - vagrant
+            - diffmerge
+            - sublime-text3
+    nodejs:
+        apps:
+            - bower
+            - gulp
+            - grunt-cli
+            - jshint
+    gems:
+        - capistrano
+        - capistrano-composer
+        - sass
+        - bundler

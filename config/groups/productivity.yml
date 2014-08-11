@@ -1,0 +1,21 @@
+recipes:
+    mac_os_x:
+attributes:
+    homebrewalt:
+        apps:
+        cask_apps:
+            - a-better-finder-attributes
+            - a-better-finder-rename
+            - alfred
+            - bartender
+            - big-mean-folder-machine
+            - cheatsheet
+            - cinch
+            - dash
+            - mindnode-pro
+            - zipeg
+            - flux
+            - evernote
+            - skitch
+    gems:
+        - otask

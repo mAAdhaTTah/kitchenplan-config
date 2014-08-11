@@ -1,0 +1,14 @@
+recipes:
+    mac_os_x:
+attributes:
+    homebrewalt:
+        apps:
+        cask_apps:
+            - adapter
+            - all2mp3
+            - id3-editor
+            - vlc
+            - filebot
+            - handbrake
+            - musicbrainz-picard
+            - calibre
