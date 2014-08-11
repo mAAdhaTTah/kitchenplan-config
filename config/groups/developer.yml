@@ -18,7 +18,6 @@ attributes:
         cask_apps:
             - coda
             - codekit
-            - sublime
             - virtualbox
             - transmit
             - tower
