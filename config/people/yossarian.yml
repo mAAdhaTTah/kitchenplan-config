@@ -1,5 +1,9 @@
 groups:
     - developer
+    - bash
+    - productivity
+    - media
+    - hackintosh
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
