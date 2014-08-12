@@ -11,15 +11,14 @@ recipes:
 attributes:
     gems:
         - jekyll
-    dotfiles:
-        bash_it:
-            enabled_plugins:
-                aliases:
-                completion:
-                plugins:
-            theme:
-            dir: ~/.bash_it
-            repository: https://github.com/revans/bash-it.git
+    bash_it:
+        # enabled_plugins:
+        #     aliases:
+        #     completion:
+        #     plugins:
+        # theme:
+        dir: ~/.bash_it
+        repository: https://github.com/revans/bash-it.git
     osxdefaults:
         computername: Roma
     homebrewalt:
