@@ -16,9 +16,9 @@ attributes:
             - git
             - android-platform-tools
         cask_apps:
+            - virtualbox
             - coda
             - codekit
-            - virtualbox
             - transmit
             - tower
             - vagrant
