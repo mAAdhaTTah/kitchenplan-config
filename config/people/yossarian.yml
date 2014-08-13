@@ -17,7 +17,7 @@ attributes:
         #     completion:
         #     plugins:
         # theme:
-        dir: ~/.bash_it
+        dir: /Users/yossarian/.bash_it
         repository: https://github.com/revans/bash-it.git
     osxdefaults:
         computername: Roma
