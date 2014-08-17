@@ -14,6 +14,7 @@ attributes:
             - python
             - ruby
             - git
+            - git-flow
             - android-platform-tools
         cask_apps:
             - virtualbox
