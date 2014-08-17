@@ -12,11 +12,39 @@ attributes:
     gems:
         - jekyll
     bash_it:
-        # enabled_plugins:
-        #     aliases:
-        #     completion:
-        #     plugins:
-        # theme:
+        enabled_plugins:
+            aliases:
+                - bundler
+                - git
+                - gitsvn
+                - homebrew
+                - laravel
+                - osx
+                - vagrant
+            completion:
+                - bash-it
+                - brew
+                - capistrano
+                - defaults
+                - gem
+                - git
+                - git-flow
+                - pip
+                - rake
+                - ssh
+            plugins:
+                - base
+                - browser
+                - dirs
+                - git
+                - javascript
+                - jekyll
+                - nginx
+                - node
+                - osx
+                - ssh
+                - vagrant
+        theme: iterate
         dir: /Users/yossarian/.bash_it
         repository: https://github.com/revans/bash-it.git
     osxdefaults:
