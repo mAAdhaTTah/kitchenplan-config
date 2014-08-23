@@ -16,6 +16,7 @@ attributes:
             - git
             - git-flow
             - android-platform-tools
+            - ansible
         cask_apps:
             - virtualbox
             - coda
