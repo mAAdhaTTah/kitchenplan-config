@@ -2,7 +2,7 @@ recipes:
     global:
         - dotfiles::bash_it
     mac_os_x:
-        - applications::bash
+        - applications::homebrew-bash
 attributes:
     homebrewalt:
         apps:
