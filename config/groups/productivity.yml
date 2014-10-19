@@ -18,5 +18,3 @@ attributes:
             - flux
             - evernote
             - skitch
-    gems:
-        - otask
