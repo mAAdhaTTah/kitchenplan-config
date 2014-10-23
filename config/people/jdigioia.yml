@@ -6,7 +6,6 @@ groups:
     - hackintosh
 recipes:
     mac_os_x:
-        - osxdefaults::set_computer_name
         - applications::rsync
 attributes:
     gems:
@@ -46,10 +45,10 @@ attributes:
                 - ssh
                 - vagrant
         theme: iterate
-        dir: /Users/yossarian/.bash_it
+        dir: /Users/jdigioia/.bash_it
         repository: https://github.com/revans/bash-it.git
     osxdefaults:
-        computername: Roma
+        computername: B-25 Mitchell
     homebrewalt:
         apps:
             - trash

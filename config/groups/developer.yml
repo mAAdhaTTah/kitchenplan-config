@@ -3,10 +3,7 @@ recipes:
         - nodejs::default
         - applications::php55
         - applications::mysql
-        - applications::composer
         - applications::gems
-        - applications::phpdoc
-        - applications::phpunit
 attributes:
     mysql_root_password: "password"
     homebrewalt:
@@ -17,6 +14,7 @@ attributes:
             - git-flow
             - android-platform-tools
             - ansible
+            - wget
         cask_apps:
             - virtualbox
             - coda
@@ -37,3 +35,6 @@ attributes:
         - capistrano-composer
         - sass
         - bundler
+    php-apps:
+        - composer
+        - phpunit
