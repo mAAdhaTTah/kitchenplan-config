@@ -1,9 +1,9 @@
 recipes:
     mac_os_x:
         - nodejs::default
-        - applications::php55
+        - applications::php56
         - applications::mysql
-        - applications::gems
+        - applications::gcc42
 attributes:
     mysql_root_password: "password"
     homebrewalt:
@@ -23,6 +23,7 @@ attributes:
             - tower
             - vagrant
             - diffmerge
+            - sequel-pro
             - sublime-text3
     nodejs:
         apps:
@@ -30,11 +31,7 @@ attributes:
             - gulp
             - grunt-cli
             - jshint
-    gems:
-        - capistrano
-        - capistrano-composer
-        - sass
-        - bundler
     php-apps:
         - composer
         - phpunit
+        - php-code-sniffer

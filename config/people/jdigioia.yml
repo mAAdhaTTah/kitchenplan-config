@@ -6,10 +6,9 @@ groups:
     - hackintosh
 recipes:
     mac_os_x:
+        - osxdefaults::set_computer_name
         - applications::rsync
 attributes:
-    gems:
-        - jekyll
     bash_it:
         enabled_plugins:
             aliases:
@@ -48,13 +47,14 @@ attributes:
         dir: /Users/jdigioia/.bash_it
         repository: https://github.com/revans/bash-it.git
     osxdefaults:
-        computername: B-25 Mitchell
+        computername: Roma
     homebrewalt:
         apps:
             - trash
             - hr
             - mackup
         cask_apps:
+            - airfile
             - dropbox
             - google-drive
             - insync
@@ -65,6 +65,7 @@ attributes:
             - omnidisksweeper
             - onyx
             - skype
+            - owncloud
             - pokertracker
             - backuploupe
             - duplicate-annihilator

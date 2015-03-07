@@ -7,3 +7,5 @@ attributes:
     homebrewalt:
         apps:
             - bash-completion
+        cask_apps:
+            - totalterminal
