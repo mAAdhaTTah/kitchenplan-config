@@ -13,7 +13,6 @@ attributes:
         enabled_plugins:
             aliases:
                 - general
-                - bundler
                 - git
                 - gitsvn
                 - homebrew
@@ -23,13 +22,9 @@ attributes:
             completion:
                 - bash-it
                 - brew
-                - capistrano
                 - defaults
-                - gem
                 - git
-                - git-flow
-                - pip
-                - rake
+                - git_flow
                 - ssh
             plugins:
                 - base
@@ -37,9 +32,8 @@ attributes:
                 - dirs
                 - git
                 - javascript
-                - jekyll
-                - nginx
                 - node
+                - nvm
                 - osx
                 - ssh
                 - vagrant
