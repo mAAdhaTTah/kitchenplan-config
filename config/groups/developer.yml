@@ -7,6 +7,8 @@ recipes:
 attributes:
     mysql_root_password: "password"
     homebrewalt:
+        taps:
+            - gapple/services
         apps:
             - python
             - ruby
@@ -25,6 +27,8 @@ attributes:
             - diffmerge
             - sequel-pro
             - sublime-text3
+        cask_fonts:
+            - source-code-pro
     nodejs:
         apps:
             - bower
