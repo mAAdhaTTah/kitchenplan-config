@@ -4,9 +4,9 @@ groups:
     - productivity
     - media
     - hackintosh
+    - osx
 recipes:
     mac_os_x:
-        - osxdefaults::set_computer_name
         - applications::rsync
 attributes:
     bash_it:
