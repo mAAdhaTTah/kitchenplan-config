@@ -20,16 +20,29 @@ attributes:
             - gnu-tar
             - karn
             - wp-cli
+            - whois
+            - heroku-toolbelt
+            - redis
+            - postgresql
+            - envoy
+            - docker-machine
+            - docker
+            - curl
         cask_apps:
+            - atom
             - virtualbox
             - coda
-            - codekit
+            - firefoxdeveloperedition
             - transmit
             - tower
             - vagrant
             - diffmerge
+            - pgadmin3
+            - phpstorm-bundled-jdk
             - sequel-pro
             - sublime-text3
+            - shuttle
+            - webstorm-bundled-jdk
         cask_fonts:
             - source-code-pro
     nodejs:
