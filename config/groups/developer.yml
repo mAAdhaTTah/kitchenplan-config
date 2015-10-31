@@ -17,6 +17,9 @@ attributes:
             - android-platform-tools
             - ansible
             - wget
+            - gnu-tar
+            - karn
+            - wp-cli
         cask_apps:
             - virtualbox
             - coda
@@ -39,3 +42,5 @@ attributes:
         - composer
         - phpunit
         - php-code-sniffer
+        - php-cs-fixer
+        - phpdocumentor
