@@ -58,6 +58,7 @@ attributes:
             - geekbench
             - omnidisksweeper
             - onyx
+            - openemu-experimental
             - skype
             - owncloud
             - pokertracker

@@ -6,3 +6,4 @@ attributes:
         cask_apps:
             - kext-utility
             - kext-wizard
+            - logitech-unifying
