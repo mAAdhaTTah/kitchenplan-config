@@ -1,11 +1,7 @@
 recipes:
-    global:
-        - dotfiles::bash_it
     mac_os_x:
         - applications::homebrew-bash
 attributes:
     homebrewalt:
-        apps:
-            - bash-completion
         cask_apps:
             - totalterminal

@@ -28,6 +28,7 @@ attributes:
             - docker-machine
             - docker
             - curl
+            - hub
         cask_apps:
             - atom
             - virtualbox

@@ -9,37 +9,6 @@ recipes:
     mac_os_x:
         - applications::rsync
 attributes:
-    bash_it:
-        enabled_plugins:
-            aliases:
-                - general
-                - git
-                - gitsvn
-                - homebrew
-                - laravel
-                - osx
-                - vagrant
-            completion:
-                - bash-it
-                - brew
-                - defaults
-                - git
-                - git_flow
-                - ssh
-            plugins:
-                - base
-                - browser
-                - dirs
-                - git
-                - javascript
-                - node
-                - nvm
-                - osx
-                - ssh
-                - vagrant
-        theme: envy
-        dir: /Users/jdigioia/.bash_it
-        repository: https://github.com/revans/bash-it.git
     osxdefaults:
         computername: Roma
     homebrewalt:
